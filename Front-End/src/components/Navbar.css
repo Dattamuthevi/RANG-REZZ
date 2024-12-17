@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.app-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white; /* Keep the text color white */
+  text-decoration: none; /* Remove underline */
+}
+
+.navbar-right a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'DELTHA';
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.navbar-right a:hover,
+.navbar-right a:focus {
+  color: gold;
+  text-decoration: none; /* Remove underline on hover and focus */
+}
+
+@font-face {
+  font-family: 'Deltha';
+  src: url('C:/Projects/Rang Rez/rang-rez-app/public/fonts/Deltha.ttf') format('truetype');
+}
+
+.navbar-right a:hover {
+  text-decoration: underline;
+}

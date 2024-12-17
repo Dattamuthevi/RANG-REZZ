@@ -1,0 +1,21 @@
+.video-preview {
+    padding: 2rem;
+    font-family: 'DELTHA';
+  }
+  
+@font-face {
+    font-family: 'Deltha';
+    src: url('C:\Rang Rez\rang-rez-app\public\fonts\Deltha.ttf') format('truetype');
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .preview-video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+  }
+  

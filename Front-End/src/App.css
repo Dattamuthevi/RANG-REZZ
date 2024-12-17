@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #4b0082, #000000); /* Blackish purple background */
+  color: white;
+  min-height: 100vh;
+  transition: all 0.5s ease-in-out;
+  font-family: 'DELTHA';
+}
+
+@font-face {
+  font-family: 'Deltha';
+  src: url('C:/Projects/Rang Rez/rang-rez-app/public/fonts/Deltha.ttf') format('truetype');
+}
